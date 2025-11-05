@@ -109,15 +109,15 @@ This project uses **PlatformIO** within Visual Studio Code for uploading firmwar
 
 ## 1. Prerequisites
 
-- [Visual Studio Code](httpss://code.visualstudio.com/)
-- [PlatformIO IDE Extension](httpss://platformio.org/install/ide?install=vscode) for VS Code
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [PlatformIO IDE Extension](https://platformio.org/install/ide?install=vscode) for VS Code
 
 ## 2. Uploading Drone Firmware (ESP-FC)
 
 The drone uses the **ESP-FC** firmware. You'll need to flash this to the drone's ESP32.
 
 1.  **Download ESP-FC**:
-    -   Clone or download the [ESP-FC repository](httpss://github.com/rtlopez/esp-fc).
+    -   Clone or download the [ESP-FC repository](https://github.com/rtlopez/esp-fc).
 2.  **Open in PlatformIO**:
     -   Open the cloned `esp-fc` folder in VS Code.
 3.  **Configure `platformio.ini`**:
@@ -278,6 +278,9 @@ ESP-FC firmware: [https://github.com/rtlopez/esp-fc](https://github.com/rtlopez/
 If you like this project —
 ⭐ Star the repo
 📨 DM us for workshop kits
+
+ConnectRobo youtube: https://www.youtube.com/channel/UCLttyI0VHBm-k5h8QX2aRWQ  
+insta: https://www.instagram.com/connectrobo/
 
 Instagram → [https://www.instagram.com/connectshiksha/](https://www.instagram.com/connectshiksha/)
 
