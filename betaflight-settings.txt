@@ -1,0 +1,44 @@
+In betaflight
+
+CONFIGRATION:
+mpu_rotation - 270 degree
+
+
+RECEIVER SETTINGS:
+Receiver Mode          SPI Rx (e.g. Built-in RX)
+SPI Bus Provider       NRF24_V202_250K
+Channel Map            AETR1234
+
+
+CLI: 
+for motor pins
+set pin_output_0 4
+set pin_output_1 27
+set pin_output_2 26
+set pin_output_3 25
+
+
+PID TUNING:
+Axis	P	I	D_MAX	Feed-forward
+Roll	43	40	22	72
+Pitch	58	52	22	72
+Yaw	72	45	0	72
+These values work not well for 8520 brushed motors + 65mm props
+We are trying to tune for stable indoor flight.
+
+
+MODE ASSIGNMENT (Arming + Angle mode)
+Mode	AUX 	Active range
+ARM	    AUX1	1700 → 2100
+ANGLE	AUX1	1700 → 2100
+
+
+ESC / MOTOR OUTPUT:
+Parameter	         Value
+ESC Protocol	     BRUSHED
+PWM Frequency	     480 Hz
+Motor Stop	         OFF
+Minimum Throttle	1070
+Maximum Throttle	2000
+Minimum Command	    1000
+

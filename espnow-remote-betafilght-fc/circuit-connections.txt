@@ -1,0 +1,25 @@
+Transmitter — Circuit Connections (ESP32)
+
+Components:
+- ESP32 development board 
+- 2x analog joysticks (each has VCC, GND, VRx, VRy)
+- 1x toggle switch 
+
+Wiring (matches src/tx.cpp pin constants):
+- JOY1 (Throttle / Yaw)
+  - VRx (throttle)  -> GPIO 34  (JOY1_X_PIN)
+  - VRy (yaw)       -> GPIO 35  (JOY1_Y_PIN)
+  - VCC             -> 3.3V
+  - GND             -> GND
+
+- JOY2 (Roll / Pitch)
+  - VRx (roll)      -> GPIO 33  (JOY2_X_PIN)
+  - VRy (pitch)     -> GPIO 32  (JOY2_Y_PIN)
+  - VCC             -> 3.3V
+  - GND             -> GND
+
+- Toggle Switch (Channel 5/aux1)
+  - One terminal     -> GPIO 25  (SWITCH_PIN)
+  - Other terminal   -> GND
+
+

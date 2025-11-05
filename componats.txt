@@ -1,0 +1,27 @@
+hardware: 
+for drone : 
+1. esp32 devkitv1
+2. mpu6050
+4. motor driver:
+a. ao3400a mosfet
+b. ss14 diode
+c. 10k resistance
+5. 3.7v to 5v booster
+6. 8250 coreless motor with 65mm propeller
+7. bonika 3.7v 850mah 25c lipo battery
+8. 10cm 2Pin JST Male connecting battery
+
+for remote
+1. esp32 devkitv1
+2. 2 joysticks 
+3. Tactile Push Button Switch for aux1 channel 5 used for arming drone
+4. lipo battery
+5. Rocker switch for on off remote
+
+for software use that repo
+https://github.com/rtlopez/esp-fc
+they support Betaflight
+and in Betaflight 
+
+
+
