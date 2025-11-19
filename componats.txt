@@ -19,7 +19,7 @@ for remote
 5. Rocker switch for on off remote
 
 for software use that repo
-https://github.com/rtlopez/esp-fc
+https://github.com/rtlopez1/esp-fc
 they support Betaflight
 and in Betaflight 
 
