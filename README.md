@@ -7,11 +7,18 @@ This project demonstrates  using inexpensive components — suitable for hobbyis
 
 ---
 
+## 📺 Project Demo
+
+[![ESP-NOW Brushed RC Drone Demo](https://img.youtube.com/vi/2iOVJZ2RgE0/0.jpg)](https://www.youtube.com/watch?v=2iOVJZ2RgE0)
+
+Watch the full build and flight here!
+
+---
+
 ## 📷 Project Images
 | ![Drone](images/drone.jpg) |
 
 ---
-
 
 # 📦 Hardware List
 
@@ -30,7 +37,6 @@ This project demonstrates  using inexpensive components — suitable for hobbyis
 | Li-Po 3.7V 850mAh 25C    | 1   |
 | JST 2-pin connector      | 1   |
 | Frame (3D printed / DIY) | 1   |
-
 
 ---
 
@@ -74,7 +80,6 @@ ESP32 GPIO | ESC / Motor
 
 ### Remote (Transmitter) — Circuit Connections (ESP32)
 
-
 ```
 ESP32 GPIO | Control Signal
 34         | JOY1 VRx (Throttle)
@@ -87,8 +92,6 @@ Gnd        | Joystick + Switch GND
 ```
 
 > Note: Adjust pin numbers if your PCB/wiring or src/tx.cpp constants differ.
-
-
 
 # ⚙️ Software & Firmware
 
@@ -149,14 +152,13 @@ QUAD X
 ```
 
 
-
 Motor layout:
 
 ```
    4     1
     \   /
      \ /
-     / \
+     / \ 
     /   \
    3     2
 ```
@@ -170,8 +172,6 @@ Receiver Mode:   SPI Rx (built-in)
 SPI Provider:    NRF24_V202_250K
 Channel Map:     AETR1234
 ```
-
-
 
 ---
 
@@ -254,7 +254,6 @@ Recommended:
 
 ---
 
-
 ---
 
 # 📌 Future Upgrades
@@ -270,7 +269,6 @@ Recommended:
 
 ESP-FC firmware: [https://github.com/rtlopez/esp-fc](https://github.com/rtlopez/esp-fc)
 
-
 ---
 
 # ❤️ Support
@@ -285,4 +283,3 @@ insta: https://www.instagram.com/connectrobo/
 Instagram → [https://www.instagram.com/connectshiksha/](https://www.instagram.com/connectshiksha/)
 
 ---
-
