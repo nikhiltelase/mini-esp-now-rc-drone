@@ -16,7 +16,7 @@ Watch the full build and flight here!
 ---
 
 ## 📷 Project Images
-| ![Drone](images/drone.jpg) |
+| ![Drone](https://media.licdn.com/dms/image/v2/D5622AQG1cbxqwStfFw/feedshare-shrink_1280/B56Zn7p.qsJ8As-/0/1760863718602?e=1766620800&v=beta&t=97TpDzHStCpCh86nzE3-WnqMsuksOIBlsManQuCuy9A) |
 
 ---
 
